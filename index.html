@@ -10,27 +10,53 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="header">
-      <nav></nav>
-      <a href="#" class="logo"></a>
-      <address class="contacts"></address>
+    <header class="header content_section">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-item header__links-item_active">
+            <a class="header__link" href="#0">главная</a>
+          </li>
+          <li class="header__links-item">
+            <a class="header__link" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="header__links-item">
+            <a class="header__link" href="#0">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__logo">
+        <img
+          class="header__logo-image"
+          src="./images/logo-black.svg"
+          alt="Логотип Оно Тебе Надо"
+        />
+      </a>
+      <address class="address header__address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <span>наб. Принсенграхт 263- 265, Амстердам</span>
+      </address>
     </header>
     <main>
-      <section class="cover">
-        <h1 class="cover__title">Оно тебе надо</h1>
+      <section class="cover content_section">
+        <h1 class="cover__title">
+          <span class="aligned-text aligned-text_left">ОНО</span>
+          <span class="aligned-text aligned-text_center">ТЕБЕ</span>
+          <span class="aligned-text aligned-text_right">НАДО</span>
+        </h1>
         <div class="description">
           <p></p>
           <button></button>
         </div>
       </section>
-      <section class="lots">
+      <section class="lots content_section">
         <ul>
           <li class="lot">
             <a> <article></article></a>
           </li>
         </ul>
       </section>
-      <section class="about">
+      <section class="about content_section">
         <div></div>
         <div>
           <h2></h2>
@@ -38,6 +64,14 @@
         </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer content_section">
+      <nav></nav>
+      <ul>
+        <li class="social">
+          <a> <article></article></a>
+        </li>
+      </ul>
+      <address class="contacts"></address>
+    </footer>
   </body>
 </html>
