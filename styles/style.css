@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .content_section {
   box-sizing: border-box;
   width: 100%;
