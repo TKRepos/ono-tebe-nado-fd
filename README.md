@@ -1,1 +1,1 @@
-https://github.com/TKRepos/ono-tebe-nado
+https://github.com/TKRepos/ono-tebe-nado-fd
