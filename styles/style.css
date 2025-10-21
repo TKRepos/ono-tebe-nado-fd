@@ -1,6 +1,7 @@
-html{
+html {
   scroll-behavior: smooth;
 }
+
 .content_section {
   box-sizing: border-box;
   width: 100%;
@@ -243,7 +244,6 @@ h2 {
     "logo title"
     ".  text";
   column-gap: 24px;
-  /* min-height: 595px; */
 }
 
 .about__logo {
